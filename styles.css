@@ -1,0 +1,301 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5f3d73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner {
+    background-color: #a15210;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #d6c3bf;
+    min-height: 400px;
+}
+
+.image-left img {
+    max-width: 50%/* styles.css */;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h3 {
+    margin-top: 0;
+}
+
+.login-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5f3d73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #a15210;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons img {
+    width: 30px;  /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin: 0 10px;  /* Espacio entre los iconos */
+    transition: transform 0.3s;  /* Efecto de animación al pasar el cursor */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);  /* Efecto de agrandado al pasar el cursor */
+}
+
+.logo {
+    width: 30%; /* Ajusta el tamaño según tus necesidades */
+    height: 30%; /* Mantiene la proporción del logo */
+    margin-right: 10px; /* Espacio entre el logo y el título */
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el texto */
+}
+@media (max-width: 760px) {
+    .logo {
+        width: 20vw;  /* El logo se agrandará un poco en pantallas más pequeñas */
+    }
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #502F66;
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Menú principal */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #FFB23F;
+    border-radius: 5px;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #502F66; /* Color de fondo del menú */
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Menú principal */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: #FFB23F; /* Color de fondo al pasar el ratón */
+    border-radius: 5px;
+}
+
+/* Sección principal */
+#contenido-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #EDE5E2;
+}
+
+.info-box {
+    max-width: 600px;
+    text-align: left;
+}
+
+.info-box h1 {
+    color: #502F66;
+    font-size: 2.5em;
+}
+
+.info-box p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #502F66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FFB23F;
+}
+
+/* Imagen del conductor */
+.image-box img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de redes sociales */
+#redes-sociales {
+    text-align: center;
+    background-color: #FFB23F;
+    padding: 5px 10px;
+}
+
+#redes-sociales h2 {
+    color: #502F66;
+    font-size: 2em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #502F66;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
